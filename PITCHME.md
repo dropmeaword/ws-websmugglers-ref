@@ -1,11 +1,11 @@
 Hello smugglers
 +++
 What we are going to do in this workshop?
-    - a darknet
-    - a tiny version of the internet
-    - an embodied website
-    - a website smuggling device 
-    - has any of you ever made a website?
+- a darknet
+- a tiny version of the internet
+- an embodied website
+- a website smuggling device 
+- has any of you ever made a website?
 +++
 ### ARPANET
 December 1979
