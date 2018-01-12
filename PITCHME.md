@@ -242,7 +242,9 @@ Used easy to circumvent DNS blockades
 
 +++
 
-# Catalonia's referendum (1 Oct 2017)
+## Catalonia's referendum
+##### 1 Oct 2017
+
 +++
 ![web censurada del referendum](http://res.cloudinary.com/zilogtastic/image/upload/c_scale,h_600/v1510847839/cat_referendum/Screen_Shot_2017-11-16_at_15.59.43.png)
 
