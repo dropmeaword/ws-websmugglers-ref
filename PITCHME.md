@@ -450,6 +450,9 @@ choose any of the countries that appear on this censorship report made by Freedo
 and research deeper into how the internet is censored in those countries, what websites or protocols? who is censored and why? what are the motivations behind the censorship?
 
 Think up of a way to smuggle a website into the country of your choice? What website would you take with you? and how would you smuggle into the country using this simple setup we made today?
+
+!!! website may not exceed 3Mb in size, all inclusive !!!
+
 +++
 ## kickstart your research
 Here are some sites that you can use to begin your research:
