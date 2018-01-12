@@ -47,7 +47,7 @@ we will be using micropython
 [micropython.org](https://micropython.org/)
 ---
 ### Getting our workstation ready
-    - install wemos drivers (https://wiki.wemos.cc/products:d1:d1_mini_pro)
+Install wemos drivers (https://wiki.wemos.cc/products:d1:d1_mini_pro)
 +++
 ### getting our workstation ready
 We will be needing some command line tools to flash our firmware. `esptool` is a small python utility that
@@ -63,12 +63,12 @@ Once it installs successfully run it and read the help text
 ### getting our workstation ready
 flashing the firmware: loading micropython into the Wemos D1 mini Pro
 
-You will need to download a binary file from the [micropython downloads area](http://micropython.org/download/) named `esp8266-20171101-v1.9.3.bin`. This file contains a new firmware for the ESP8266 chipset that implements the core of python.
+You will need to download a binary file from the micropython downloads area: http://micropython.org/download/ named `esp8266-20171101-v1.9.3.bin`. This file contains a new firmware for the ESP8266 chipset that implements the core of python.
 +++
 ### getting our workstation ready
 You will need a terminal emulator for the next few steps, Linux and OSX come with one: `screen`. 
 
-Windows lacks a terminal emulation program so you need a third party program like PuTTY. You can download it from (PuTTY's homepage)[https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html].
+Windows lacks a terminal emulation program so you need a third party program like PuTTY. You can download it from (PuTTY's homepage: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html.
 ---
 ### Working with micropython
 interacting with the board through micropython code using the serial REPL
@@ -79,7 +79,9 @@ $ screen /dev/tty.SLAB_USBtoUART 115200
 
 *REPL stands for Read Evaluate Print Loop* it is an interactive programming environment, many languages offer this way of interfacing with their runtime.
 +++
-##### Note for Unix people: if you like scaperooms, try `screen`
+##### Note for Unix people
+
+if you like scaperooms, try `screen`
 
 The `screen` fairly awkward to use and has a steep learning curve. For now we just need to know how to open a session using the command above to quit you can use <kbd>ctrl</kbd> + <kbd>a</kbd> and then <kbd>ctrl</kbd> + <kbd>k</kbd>, then it will ask you if you want to kill the window. You can use this moment to ponder about the meaning of *kill* in this context, or you can just press <kbd>y</kbd> to exit.
 +++
@@ -100,7 +102,6 @@ can Arduino hold files like this? why not?
 things you can try to do: get board diagnostics, get the devices MAC address, install packages with upip, run your own python game?
 +++
 ## Working with micropython: ESPlorer
-
 A bit more user friendly and versatile.
 
 [https://esp8266.ru/esplorer/](https://esp8266.ru/esplorer/)
@@ -178,7 +179,8 @@ what is a server? how does it look like? and what does it do?
 +++
 <iframe src="https://player.vimeo.com/video/95044197?color=ffffff&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-Timo Arnall, 2014
+*Timo Arnall, 2014*
+
 Film: 6 min 40 sec, digital 4K, 25fps, stereo.
 Installation: Digital projection, 3 x 16:10 screens, each 4.85m x 2.8m.
 Medium: Digital photography, photogrammetry and 3D animation.
@@ -186,10 +188,10 @@ Medium: Digital photography, photogrammetry and 3D animation.
 can one webserver have more than one website?
 +++
 ## building a tiny webserver
-    - opening a socket in micropython
-    - binding to socket on port 80
-    - what is 0.0.0.0?
-    - listening forever
+- opening a socket in micropython
+- binding to socket on port 80
+- what is 0.0.0.0?
+- listening forever
 +++
 ## building a tiny webserver 
 HTTP request/response [RFC2616](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
@@ -236,7 +238,7 @@ Used easy to circumvent DNS blockades
 ![google DNS graffitti](http://res.cloudinary.com/zilogtastic/image/upload/c_scale,h_500/v1515745428/ws-smugglers/beyond_the_hashtag_gezi_dns_graffitti.jpg)
 +++
 ### #direntwitter
-![#direntwitter](http://res.cloudinary.com/zilogtastic/image/upload/c_scale,h_600/v1510850656/cat_referendum/Alternative_DNS.jpg)
+![#direntwitter](http://res.cloudinary.com/zilogtastic/image/upload/c_scale,h_500/v1510850656/cat_referendum/Alternative_DNS.jpg)
 
 +++
 
