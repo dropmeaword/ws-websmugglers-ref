@@ -451,7 +451,7 @@ and research deeper into how the internet is censored in those countries, what w
 
 Think up of a way to smuggle a website into the country of your choice? What website would you take with you? and how would you smuggle into the country using this simple setup we made today?
 
-!!! website may not exceed 3Mb in size, all inclusive !!!
+**!!! website may not exceed 3Mb in size, all inclusive !!!**
 
 +++
 ## kickstart your research
