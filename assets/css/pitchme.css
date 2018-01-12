@@ -1,0 +1,12 @@
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}
+
+.reveal p {
+  font-size: 20pt;
+}
+
+.reveal ul {
+  font-size: 18pt;
+}
