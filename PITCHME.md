@@ -448,7 +448,7 @@ They announced that no content would be censored on their network
 
 ---
 ## design challenge: becoming a website smuggler
-choose any of the countries that appear on this censorship report made by Freedom House in 2016
+choose any of the countries that appear in this censorship report made by *Freedom House* in 2016
 [https://freedomhouse.org/report/freedom-net/freedom-net-2016
 ](https://freedomhouse.org/report/freedom-net/freedom-net-2016)
 
