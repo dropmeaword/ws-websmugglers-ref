@@ -241,6 +241,11 @@ Used easy to circumvent DNS blockades
 ![#direntwitter](http://res.cloudinary.com/zilogtastic/image/upload/c_scale,h_500/v1510850656/cat_referendum/Alternative_DNS.jpg)
 
 +++
+## North Korea and the Internet of 28 websites
+
+http://www.telegraph.co.uk/technology/2016/09/21/north-koreas-internet-revealed-to-have-just-28-websites/
+
++++
 
 ## Catalonia's referendum
 ##### 1 Oct 2017
