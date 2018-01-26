@@ -8,7 +8,7 @@ What we are going to do in this workshop?
 has any of you ever made a website?
 +++
 ### ARPANET
-December 1979
+December 1969
 
 ![dec 1969](http://res.cloudinary.com/zilogtastic/image/upload/c_scale,h_500/v1515739389/ws-smugglers/arpanet_dec_1969.jpg)
 

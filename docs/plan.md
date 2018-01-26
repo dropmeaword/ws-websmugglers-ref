@@ -21,7 +21,6 @@
     - I am quite fast and information dense, stop me any time for questions
 
     - what we are going to do in this workshop
-        - a darknet
         - a tiny version of the internet
         - an embodied website
         - a website smuggling device 
@@ -61,8 +60,9 @@
     - adding your smuggler-board to the routers configuration and giving each a domain
     - pinging each board
 
+## Day 2
 
-15.00 building a tiny webserver
+9.15 building a tiny webserver
     - what is a server? how does it look like?
     - what does a server do?
     - what is a webserver? and what does it do?
