@@ -7,6 +7,8 @@ What we are going to do in this workshop?
 
 has any of you ever made a website?
 +++
+what do you know about the internet?
++++
 ### ARPANET
 December 1969
 
@@ -28,7 +30,9 @@ June 1974
 March 1977
 
 ![March 1977](http://res.cloudinary.com/zilogtastic/image/upload/c_scale,h_500/v1515739414/ws-smugglers/arpanet_mar_1977.jpg)
-
++++
+What happens when you go to `google.com`?
+(like really really)
 ---
 ## The ESP8266 chip
 
