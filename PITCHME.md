@@ -1,11 +1,11 @@
 Hello smugglers
 +++
 What we are going to do in this workshop?
-- a darknet
 - a tiny version of the internet
 - an embodied website
 - a website smuggling device 
-- has any of you ever made a website?
+
+has any of you ever made a website?
 +++
 ### ARPANET
 December 1979
@@ -170,6 +170,8 @@ now we have all these networking little devices, but they are not yet running an
 ---
 ## building a tiny server
 what is a server? how does it look like? and what does it do?
++++
+## what is a server?
 
 ![U1 rack unit](http://res.cloudinary.com/zilogtastic/image/upload/v1515742877/ws-smugglers/U1-server.png)
 +++

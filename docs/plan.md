@@ -1,19 +1,20 @@
 ## Day 1
 
 11.45. Introductions
+    - introduce myself, what I do, where I teach
     - when do you normally have breaks?
     - what do you study?
-    - on the 26/27 I come again to give another workshop, will it be for this same group?
-    - if it's no for this group what do you know about the other group?
     - is anybody currently doing any project?
     - did you get clasess from Jon?
     - what have you been doing with Helena so far?
-    - hwat is your research assignment/project about?
+    - what is your research assignment/project about?
     - are you interested in pogramming? why?
     - is programming easy for you?
     - has anybody done any Arduino programming before?
     - what have you programmed so far?
     - have you touched upon internet protocols? what protocols?
+
+    - let's do the "what happens when I go to google exercise"
 
     - anybody knows what is a darknet?
 

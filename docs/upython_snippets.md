@@ -141,6 +141,7 @@ import socket
 
 # set our wifi access point up
 ap = network.WLAN(network.AP_IF)
+ap.active(True)
 ap.config(essid="MONKEY_ISLAND", authmode=network.AUTH_OPEN, channel=11)
 
 # open a socket on port 80 and listen
@@ -253,8 +254,8 @@ import socket
 import os
 
 # set our wifi access point up
-#ap = network.WLAN(network.AP_IF)
-#ap.config(essid="MONKEY_ISLAND", authmode=network.AUTH_OPEN, channel=11)
+ap = network.WLAN(network.AP_IF)
+ap.config(essid="MONKEY_ISLAND", authmode=network.AUTH_OPEN, channel=11)
 
 def http_request_parse(raw):
     """
@@ -265,12 +266,12 @@ def http_request_parse(raw):
     else:
         print("400 Bad request")
 
-    if not parts[0] or not parts[1] or not parts[2]:
-        print("400 Bad request")
-        return None, None, None
-
-    retval = None
+    retval = (None, None, None)
     try:
+        if not parts[0] or not parts[1] or not parts[2]:
+            print("400 Bad request")
+            return None, None, None
+    
         retval = (parts[0], parts[1], parts[2])
     except IndexError as e:
         print("400 Bad request")
@@ -295,6 +296,14 @@ while True:
     print("Our visitor requested %s" % str(request))
 
     command, path, version = http_request_parse(request)
+
+    if not path:
+        conn.sendall('HTTP/1.1 400 Bar request\n')
+        conn.sendall('Connection: close')
+        conn.sendall('Server: smugglesrv\n')
+        conn.sendall('Content-Type: text/html\n\n')
+        conn.sendall('<h1>400 - bad request</h1>')
+        conn.close()
 
     if path == '/':
         conn.sendall('HTTP/1.1 200 OK\n')
@@ -328,6 +337,7 @@ while True:
 
     # we keep no further information
     # HTTP is a stateless protocol
+
 ```
 
 Send HTTP status codes:
